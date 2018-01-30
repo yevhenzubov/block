@@ -26,10 +26,9 @@ color:#575757 ;
     background-color: #ebebeb;
 }
 
-
-.clearfix {
+/*.clearfix {
     clear: both;
-}
+}*/
 
 section {
     width: 50%;
@@ -50,110 +49,86 @@ section .text-block {
 p.text {
     padding-top: 60px;
 }
-
-
 .table {
     margin: 367px 30px 0 30px;
     padding-bottom: 50px;
 }
-.fz {
-    font-size: 20px;
-}
+
 span {
     font-size: 20px;
-    color: #fff;
+    font-weight: 400;
     display: block;
 }
-p.cbs, .nbs {
-    text-transform: uppercase;
+.technology {
+    color: #fff;
+    width: 24.5%;
+    padding-top: 10px;
+    display: inline-block;
+    float: left;
+}
+span.col-one, .col-two, .col-three, .col-four {
+    font-weight: 400;
+    padding-left: 20px;
+    margin-top: 25px;
 }
 
-.technology span  {
-    background-color: #1f2c39;
+/*COL-1*/
+span.tech {
     padding: 12px 45px 14px 44px;
+    background-color: #1f2c39;
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
 }
-.technology {
-    padding-top: 10px;
-    width: 24.5%;
-    float: left;
+span.col-one{
+    color: #1f2c39;
 }
 .light-black {
     border-width: 0 3px 0 0;
     border-style: solid;
     border-color: #1f2c39;
+    padding-top: 10px;
 }
-.technology p {
-    color: #1f2c39;
-    font-weight: 400;
-    padding-left: 20px;
-    margin-top: 22px;
-}
-
-.entertainment span {
+/*COL-2*/
+span.enter {
     background-color: #03246c;
     padding: 12px 34px 14px 20px;
 }
-.entertainment {
-    padding-top: 10px;
-    width: 24.5%;
-    float: left;
-
+span.col-two {
+    color: #03246c;
+}
+span.uppercase {
+    text-transform: uppercase;
 }
 .blue {
     border-width: 0 3px 0 0;
     border-style: solid;
     border-color: #03246c;
 }
-.entertainment p {
-    color: #03246c;
-    font-weight: 400;
-    padding-left: 20px;
-    margin-top: 22px;
-}
-
-
-.products span {
+/*COL-3*/
+span.products {
     background-color: #028090;
     padding: 12px 57px 14px 47px;
 }
-.products {
-    padding-top: 10px;
-    width: 24.5%;
-    float: left;
+span.col-three {
+    color: #028090;
 }
 .dark-blue {
     border-width: 0 3px 0 0;
     border-style: solid;
     border-color: #028090;
 }
-.products p {
-    color: #028090;
-    font-weight: 400;
-    padding-left: 20px;
-    margin-top: 22px;
-}
 
-
-.direct span {
+/*COL-4*/
+span.direct {
     background-color: #28aeaf;
     padding: 12px 0 14px 3px;
     text-align: center;
 }
-.direct {
-    padding-top: 10px;
-    width: 24.5%;
-    float: left;
+span.col-four {
+    color: #28aeaf;
 }
 .light-blue {
     border-width: 0 3px 0 0;
     border-style: solid;
     border-color: #28aeaf;
-}
-.direct p {
-    color: #28aeaf;
-    font-weight: 400;
-    padding-left: 20px;
-    margin-top: 22px;
 }
